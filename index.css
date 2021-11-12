@@ -1,0 +1,42 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile {
+    width: 28%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.paragraph {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.social-card {
+    width: 75%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.social-card:hover {
+    background-color: #555555;
+    color: white;
+}
