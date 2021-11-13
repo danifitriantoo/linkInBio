@@ -1,15 +1,9 @@
-function visitDribbble () {
-    window.location='http://dribbble.com/danifitrianto';
-}
-
-function visitTrakteer () {
-    window.location='http://trakteer.id/danifitrianto';
-}
-
-function visitGitLab () {
-    window.location='http://gitlab.com/danifitriantoo';
-}
-
-function visitBehance () {
-    window.location='htt://behance.net/danifitrianto';
+function visitPage(val) {
+    if(val == "dribbble") {
+        window.location='http://dribbble.com/danifitrianto';
+    } else if(val == "gitlab") {
+        window.location='http://gitlab.com/danifitriantoo';
+    } else {
+        window.location='htt://behance.net/danifitrianto';
+    }
 }
