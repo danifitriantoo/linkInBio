@@ -4,6 +4,6 @@ function visitPage(val) {
     } else if(val == "gitlab") {
         window.location='http://gitlab.com/danifitriantoo';
     } else {
-        window.location='htt://behance.net/danifitrianto';
+        window.location='http://behance.net/danifitrianto';
     }
 }
